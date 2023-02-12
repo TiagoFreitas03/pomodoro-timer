@@ -1,0 +1,37 @@
+.clock {
+	background-color: var(--dark-blue);
+	padding: 36px;
+	border-radius: 16px 16px 0 0;
+	text-align: center;
+}
+
+.clock h2 {
+	color: white;
+	margin: 8px 0 16px 0;
+}
+
+.clock span {
+	display: block;
+	color: white;
+	font-size: 120px;
+	margin-bottom: 16px;
+}
+
+.clock button {
+	background-color: white;
+	margin: 0 12px;
+	padding: 12px 16px;
+	font-size: 18px;
+	border-radius: 12px;
+	margin-top: 12px;
+}
+
+.clock button:hover {
+	transition: all .2s;
+	background-color: var(--light-blue);
+	color: white;
+}
+
+.clock button i {
+	margin-right: 4px;
+}

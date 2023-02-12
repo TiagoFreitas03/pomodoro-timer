@@ -1,0 +1,28 @@
+:root {
+	--gray: #18181b;
+	--light-blue: #60a5fa;
+	--dark-blue: #1e40af;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Roboto, sans-serif;
+	font-weight: normal;
+}
+
+body {
+	background-color: var(--gray);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+}

@@ -1,0 +1,20 @@
+.session-control {
+	text-align: center;
+}
+
+.value-control {
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 24px;
+	width: 100%;
+}
+
+.value-control button {
+	background-color: var(--dark-blue);
+	color: white;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}

@@ -1,0 +1,23 @@
+h1 {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+.pomodoro-container {
+	background-color: var(--gray);
+	margin: 16px 0;
+}
+
+.pomodoro-container .clock,
+.pomodoro-container .settings {
+	padding: 40px;
+}
+
+.settings {
+	background-color: white;
+	border-radius: 0 0 16px 16px;
+	display: flex;
+	justify-content: space-around;
+	gap: 48px;
+}
